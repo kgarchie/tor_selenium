@@ -33,7 +33,7 @@ After Stem is installed we need to fix a bug
     pass
    ```
 
-You need ChromeWebdriver from [here](https://chromedriver.chromium.org/downloads)*i used chrome i'm either too lazy to dig around other browsers or inept*
+You need ChromeWebdriver from [here](https://chromedriver.chromium.org/downloads) *i used chrome i'm either too lazy to dig around other browsers or inept*
 
 You need to know what you are doing
 
