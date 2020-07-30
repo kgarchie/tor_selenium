@@ -21,8 +21,7 @@ options.add_argument('--proxy-server=%s' % PROXY)
 driver = webdriver.Chrome(options=options, executable_path=r'C:\Users\Kuski\Desktop\chromedriver.exe')
 driver.get("http://www.icanhazip.com")
 time.sleep(5)
-driver.get("http://check.torproject.org")
-time.sleep(5)
+
 
 
 with Controller.from_port(port=9051) as controller:
