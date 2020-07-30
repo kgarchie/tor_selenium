@@ -39,6 +39,6 @@ You need to know what you are doing
 
 run the file using `python tor_tests.py`
 
-i've just given you power beyond your imagination **With great power comes great responsibility**
+i've just given you power beyond your imagination **With great power comes great responsibility** seriously tho use it wisely, I won't be responsible if you end up in prison
 
 for errors i'll be happy to help just leave a comment
