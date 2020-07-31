@@ -23,7 +23,7 @@ while True:
 PROXY = "socks5://127.0.0.1:9050" # IP:PORT or HOST:PORT
 options = webdriver.ChromeOptions()
 options.add_argument('--proxy-server=%s' % PROXY)
-driver = webdriver.Chrome(options=options, executable_path=r'C:\Users\Kuski\Desktop\chromedriver.exe')
+driver = webdriver.Chrome(options=options, executable_path=r'path\to\chromedriver.exe')
 driver.get("http://www.icanhazip.com")
 time.sleep(5)
 
