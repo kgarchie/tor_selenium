@@ -17,17 +17,8 @@ while True:
         )
     except OSError:
         print("Please terminate the running tor process in task manager(optional), Press Ctrl+C to stop the program")
-        print("If that didn't solve your problem and there was an error there may be other OSErrors look at the source code") # and replace this while True code with this:
-        """
-            tor_launcher = process.launch_tor_with_config(
-          config = {
-            'ControlPort': '9051',
-            },
-        )
+        raise
 
-        # this should help you pin point the error
-        """
-        break
 # torexe = os.popen(r'C:\Users\Kuski\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe')
 PROXY = "socks5://127.0.0.1:9050" # IP:PORT or HOST:PORT
 options = webdriver.ChromeOptions()
