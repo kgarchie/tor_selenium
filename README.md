@@ -13,7 +13,7 @@ This is a simple working python program that changes your IP address each time y
 
 Now we laugh HAHAHA
 ### More requirements
-You need Tor(if you don't know what that is, i hope you are enjoying your retirement)
+You need Tor
 Download it from [here](https://www.torproject.org/download/)
 
 Install the requirements for the file to run as specified in [requirements.exe](https://github.com/kgarchie/tor_selenium/blob/master/requirements.txt)
