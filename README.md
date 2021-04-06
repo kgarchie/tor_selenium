@@ -12,7 +12,7 @@ This is a simple working python program that changes your IP address each time y
 * activate the environment using ```myvenv/Scripts/activate``` (Note the S is capital). You may receive an error because running scripts is disabled. At this point restart powershell this time as administrator and type in this command 'set-executionpolicy remotesigned'. It will allow local scripts to run.
 
 Now we laugh HAHAHA
-## More requirements(*for those who know what they are doing start here*)
+### More requirements
 You need Tor(if you don't know what that is, i hope you are enjoying your retirement)
 Download it from [here](https://www.torproject.org/download/)
 
