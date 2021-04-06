@@ -3,14 +3,14 @@
 This is a simple working python program that changes your IP address each time you connect
 
 ## Getting started
-To install on Windows machines with python already installed correctly
-  1. open powershell/terminal
-  2. change directory to your preferred directory *unnecessary*
-  3. type `mkdir tor_tests`
-  4. then cd into it using `cd tor_tests`
-  5. create a virtual environment `python -m venv myvenv`
-  6. activate it using `myvenv/Scripts/activate` *Note the S is capital*
-  
+
+* open powershell/terminal as administrator(this will help us deal with some issues that may arise)
+* change directory to your preferred directory (unnecessary, just note the current directory so that you don't lose your files) Use  ```cd``` to change directory eg ```cd desktop``` will change the working directory to the desktop which I can recommend as it is easy to find the files later.
+* type ```mkdir tor_tests``` We are making a directory named 'Project', but you can call it whatever you want.
+* then cd into it using the command ```tor_tests``` (this makes it the current working directory)
+* create a virtual environment ```python -m venv myvenv```(this creates a virtual environment for python)
+* activate the environment using ```myvenv/Scripts/activate``` (Note the S is capital). You may receive an error because running scripts is disabled. At this point restart powershell this time as administrator and type in this command 'set-executionpolicy remotesigned'. It will allow local scripts to run.
+
 Now we laugh HAHAHA
 ## More requirements(*for those who know what they are doing start here*)
 You need Tor(if you don't know what that is, i hope you are enjoying your retirement)
